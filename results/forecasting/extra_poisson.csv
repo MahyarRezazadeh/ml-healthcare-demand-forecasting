@@ -1,0 +1,4 @@
+model,n,poisson_deviance,poisson_deviance_persistence,rmse_log,rmse_log_persistence
+poisson_A,22984,6.9700418,8.1011305,0.21923457,0.14933573
+poisson_B,22984,6.899675,8.1011305,0.21546459,0.14933573
+poisson_C,22984,6.962089,8.1011305,0.21819709,0.14933573

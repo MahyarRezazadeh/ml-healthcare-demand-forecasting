@@ -1,0 +1,15 @@
+# data are public and are rebuilt by the pipeline; they are not tracked
+data/raw/
+data/processed/
+# full prediction files (large); a test-period sample is tracked in results/forecasting/
+results/forecasting/preds_*/
+results/forecasting/eval_frame_*.parquet
+results/forecasting/qcd_eval_frame_*.parquet
+results/forecasting/extra_ts_preds.parquet
+logs/
+catboost_info/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+reports/figures/*.pdf

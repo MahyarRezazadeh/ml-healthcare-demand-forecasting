@@ -1,0 +1,10 @@
+model,design,regime,n,rmse,r2_vs_persistence
+lstm,"single chronological split (train to 2022-06, early stopping 2022-H2, test 2023-01 onward)",test_all,66708,5.466516867744538,0.1731358534935985
+lstm,"single chronological split (train to 2022-06, early stopping 2022-H2, test 2023-01 onward)",test_smoke,2386,5.350492598535537,0.16891741926683657
+lstm,"single chronological split (train to 2022-06, early stopping 2022-H2, test 2023-01 onward)",test_normal,64322,5.4707734125810825,0.1732847068129918
+gru,"single chronological split (train to 2022-06, early stopping 2022-H2, test 2023-01 onward)",test_all,66708,5.454206834207646,0.1768556863959032
+gru,"single chronological split (train to 2022-06, early stopping 2022-H2, test 2023-01 onward)",test_smoke,2386,5.321321061208992,0.17795504172051313
+gru,"single chronological split (train to 2022-06, early stopping 2022-H2, test 2023-01 onward)",test_normal,64322,5.4590739604679595,0.17681684867505276
+tcn,"single chronological split (train to 2022-06, early stopping 2022-H2, test 2023-01 onward)",test_all,66708,5.4645050334827925,0.17374436072031674
+tcn,"single chronological split (train to 2022-06, early stopping 2022-H2, test 2023-01 onward)",test_smoke,2386,5.359161982511489,0.16622203712319883
+tcn,"single chronological split (train to 2022-06, early stopping 2022-H2, test 2023-01 onward)",test_normal,64322,5.468373658942342,0.1740098247303027

@@ -1,0 +1,31 @@
+{
+ "raw_rows":1045406,
+ "raw_hospitals":5172,
+ "raw_weeks":226,
+ "week_min":"2019-12-29",
+ "week_max":"2024-04-21",
+ "weekday_of_collection_week":"Sunday",
+ "suppressed_cells_key":{
+  "inpatient_beds_used_7_day_avg":85886,
+  "icu_beds_used_7_day_avg":122018,
+  "previous_day_total_ed_visits_7_day_sum":2266,
+  "inpatient_beds_used_covid_7_day_avg":312943
+ },
+ "duplicate_hospital_weeks":0,
+ "rows_in_window":964647,
+ "weeks_in_window":195,
+ "hospitals_conus_acute":4585,
+ "hospitals_occ_cov_ge80":3701,
+ "hospitals_ed_cov_ge80":2313,
+ "hospitals_icu_cov_ge80":2045,
+ "final_rows":863016,
+ "final_hospitals":4585,
+ "missing_share":{
+  "occ":0.0986,
+  "icu_occ":0.4798,
+  "ed":0.1256,
+  "beds_used_noncovid":0.4958,
+  "ed_noncovid":0.2033,
+  "ped_used":0.2548
+ }
+}

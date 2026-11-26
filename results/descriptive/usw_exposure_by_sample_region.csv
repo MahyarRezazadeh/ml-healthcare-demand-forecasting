@@ -1,0 +1,5 @@
+sample,west,hospitals,hospital_weeks,mean_w1,severe_weeks,share_severe,weeks_w1_ge10,weeks_w1_ge25
+confirmation,0,2508,170519,2.0459,7251,0.0425,5285,1050
+confirmation,1,586,39711,0.4416,279,0.007,324,47
+discovery,0,2601,320522,0.9132,8586,0.0268,2186,100
+discovery,1,603,74466,1.8945,5178,0.0695,3330,1028

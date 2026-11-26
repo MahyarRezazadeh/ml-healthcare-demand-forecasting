@@ -1,0 +1,5 @@
+# Enough to run examples/reproduce_headline_metrics.py and the tests.
+numpy
+pandas
+pyarrow
+pytest

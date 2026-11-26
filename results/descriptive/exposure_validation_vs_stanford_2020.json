@@ -1,0 +1,12 @@
+{
+ "n_hospital_days":1519028.0,
+ "pearson":0.9335687038,
+ "spearman":0.7626248248,
+ "pearson_smoke_days_only":0.9318577284,
+ "mean_own":0.7872044558,
+ "mean_stanford":0.8738289044,
+ "agree_ge20":0.998033611,
+ "own_ge20_days":10047.0,
+ "stanford_ge20_days":9312.0,
+ "both_ge20":8186.0
+}
