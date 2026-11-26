@@ -54,6 +54,7 @@ STAGES = {
     ]),
     "report": ("Descriptive tables and figures", [
         "30_figures.py",
+        "31_summary_figure.py",
     ]),
     # Secondary context. Its raw files are not fetched by the ingest stage; see docs/data.md.
     "quebec": ("Optional: Quebec emergency-department daily panel, regressions and forecasts", [

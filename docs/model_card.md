@@ -28,7 +28,7 @@ US HHS facility-level weekly capacity reports, August 2020 to April 2024. Traine
 |---|---|---|---|
 | RMSE (percentage points) | 5.45 | 5.62 | 6.12 |
 | MAE (percentage points) | 3.61 | 3.75 | 3.99 |
-| Squared-error reduction vs no-change | 20.6% (95% interval 18.7% to 22.7%) | 15.6% | – |
+| Squared-error reduction vs no-change | 20.6% (95% interval 18.7% to 22.7%) | 15.5% | – |
 | 90% interval coverage (feature set C) | 91.4% | 90.8% | 90.3% |
 
 By subgroup (`results/forecasting/metrics_occ_h1.csv`, `extra_lodo.csv`, `extra_lho.csv`):

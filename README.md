@@ -22,7 +22,7 @@ One-week-ahead forecast of inpatient bed occupancy (percentage points). Test per
 | Model | Inputs | RMSE | Squared-error reduction vs no-change forecast | vs autoregression |
 |---|---|---|---|---|
 | No-change forecast | this week's occupancy | 6.12 | – | – |
-| Pooled autoregression | 4 lags + hospital mean | 5.62 | 15.6% | – |
+| Pooled autoregression | 4 lags + hospital mean | 5.62 | 15.5% | – |
 | Ridge | lags, calendar, weather, smoke, smoke history | 5.59 | 16.6% | 1.2% |
 | **LightGBM** | **lags and calendar only** | **5.45** | **20.6%** | **6.0%** |
 | LightGBM | + weather and smoke | 5.46 | 20.4% | 5.7% |
@@ -39,7 +39,7 @@ Run `python examples/reproduce_headline_metrics.py` to recompute the first six r
 - **Simple rules are hard to beat for alerts.** For flagging weeks above a hospital's own 90th percentile, the no-change forecast has the best F1 (0.73, against 0.65 for LightGBM), because the regression models are tuned for squared error and under-predict peaks. AUROC is about 0.93 for all of them.
 - **Forecast intervals are calibrated.** Split-conformal 90% intervals cover 91% of test outcomes, in smoke weeks as well.
 
-![Forecast comparison](reports/figures/fig08_forecast_model_comparison.png)
+![Forecast gain by model](reports/figures/fig_summary_forecast_gain.png)
 
 Full results, including ICU occupancy, ED visits, the four-week horizon and the Quebec daily series: [docs/results.md](docs/results.md).
 
@@ -82,7 +82,7 @@ src/
   01-09_*.py               download, cleaning, smoke exposure, analysis panel
   10-14_*.py               tuning, walk-forward forecasts, evaluation, validation designs
   20-24_*.py               panel regressions, event study, double ML, result tables
-  30_figures.py            all figures
+  30_figures.py            all figures (31_summary_figure.py: summary chart)
 examples/                  recompute headline metrics from tracked predictions
 tests/                     leakage tests for the feature builder; consistency of reported results
 results/                   every estimate and metric as CSV (forecasting, causal, descriptive, robustness)

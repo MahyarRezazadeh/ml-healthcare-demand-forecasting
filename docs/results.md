@@ -22,7 +22,7 @@ Source: `results/forecasting/metrics_occ_h1.csv`. 68,237 hospital-weeks, 1,000 h
 | Lasso / elastic net (A) | 5.584 | 3.743 | 16.7% | 1.3% | 5.364 |
 | Autoregression with seasonal terms | 5.607 | 3.740 | 16.0% | 0.5% | 5.382 |
 | Extra trees (A) | 5.619 | 3.705 | 15.6% | 0.1% | 5.378 |
-| **Pooled autoregression** | 5.621 | 3.746 | 15.6% | – | 5.390 |
+| **Pooled autoregression** | 5.621 | 3.746 | 15.5% | – | 5.390 |
 | SVR (A) | 5.628 | 3.712 | 15.4% | −0.2% | 5.384 |
 | Decision tree (A) | 5.711 | 3.815 | 12.8% | −3.2% | 5.416 |
 | 4-week rolling mean | 5.996 | 3.931 | 3.8% | −14.0% | 5.876 |
